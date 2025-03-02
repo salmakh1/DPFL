@@ -1,0 +1,3 @@
+_target_: src.model.vehicle_model.LinearVehicle
+#num_classes: 1 #10 #defined later
+input_size: 101 #

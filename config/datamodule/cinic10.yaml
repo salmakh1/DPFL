@@ -1,0 +1,15 @@
+_target_: src.data.cinic_datamodule.CINIC10DataModule
+num_classes: 10 #10
+num_workers: 0
+normalize: True
+seed: 52 #42 #32
+batch_size: 16
+shuffle: True
+num_clients: 200
+val_split: 0.2
+pub_size: 0.0001
+transform: False
+m: 10
+available_clients: 200
+local_steps: 5
+

@@ -1,0 +1,10 @@
+_target_: src.data.sent140_leaf.Sent140
+seed: 52
+num_classes: ${model.num_classes}
+batch_size: 4
+num_workers: 0
+shuffle: True
+num_clients: 175
+m: 20
+available_clients: 175
+local_steps: 2

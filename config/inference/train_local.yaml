@@ -1,0 +1,4 @@
+_target_ : inference.train_clients_local.trainClientsFL
+num_clients: ${datamodule.num_clients}
+m: ${datamodule.m}
+available_clients: ${datamodule.available_clients}

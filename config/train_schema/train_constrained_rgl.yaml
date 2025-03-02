@@ -1,0 +1,4 @@
+_target_ : fl.train_clients_constrained_rgl.trainClientsFL
+num_clients: ${datamodule.num_clients}
+m: ${datamodule.m}
+available_clients: ${datamodule.available_clients}

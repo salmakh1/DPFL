@@ -1,0 +1,43 @@
+#_target_ :  src.data.data_utils.complex_dirichlet_client_data_split
+#num_clients : ${num_clients}
+#seed: ${datamodule.seed}
+#min_dataset_size: 20 # it was 2 for 5 missing and 5 for 8 missing and 10 for 7 missing classes
+#missing_classes: 8
+#alpha: 0.5
+###
+
+
+
+_target_ :  src.data.data_utils.complex_dirichlet_client_data_split
+num_clients : ${num_clients}
+seed: ${datamodule.seed}
+min_dataset_size: 10 # it was 2 for 5 missing and 5 for 8 missing and 10 for 7 missing classes
+missing_classes: 7
+alpha: 0.5
+
+#_target_ :  src.data.data_utils.complex_dirichlet_client_data_split
+#num_clients : ${num_clients}
+#seed: ${datamodule.seed}
+#min_dataset_size: 5 # it was 2 for 5 missing and 5 for 8 missing and 10 for 7 missing classes
+#missing_classes: 5
+#alpha: 0.5
+
+
+#_target_ :  src.data.data_utils.complex_dirichlet_client_data_split
+#num_clients : ${num_clients}
+#seed: ${datamodule.seed}
+#min_dataset_size: 5 # it was 2 for 5 missing and 5 for 8 missing and 10 for 7 missing classes
+#missing_classes: 8
+#alpha: 0.5
+
+
+
+
+# FOR CIFAR100
+#
+#_target_ :  src.data.data_utils.complex_dirichlet_client_data_split
+#num_clients : ${num_clients}
+#seed: ${datamodule.seed}
+#min_dataset_size: 4 #it was 4 # it was 2 for 5 missing and 5 for 8 missing and 10 for 7 missing classes
+#missing_classes: 80 #80
+#alpha: 0.5

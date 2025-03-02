@@ -1,0 +1,9 @@
+_target_: src.data.mnist_datamodule.MNISTDataModule
+#root_dir: "tmp"
+batch_size: 16
+num_workers: 1
+normalize: True
+num_classes: 10
+seed: 42
+num_clients: ${num_clients}
+shuffle: True

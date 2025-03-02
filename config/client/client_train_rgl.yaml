@@ -1,0 +1,9 @@
+_target_: fl_client.client_rgl.Client
+
+client_id: ???
+#device: ???
+local_steps: ${datamodule.local_steps}
+task: ${task}
+learning_rate: ${optim.lr}
+batch_size: 32
+topk: False #True #topk: True #should be false with cifar10

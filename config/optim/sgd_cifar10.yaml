@@ -1,0 +1,15 @@
+#optim:
+_target_: torch.optim.SGD
+#parameters: ???
+#lr: 0.1
+#weight_decay: 0.0001
+#momentum: 0
+
+#####  Parameters to run cifar10 dataset #######
+lr: 0.01
+weight_decay: 0.0001
+momentum: 0.0
+
+
+
+

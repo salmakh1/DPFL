@@ -1,0 +1,3 @@
+_target_: src.model.shakespeare_model.RNNShakespeare
+num_classes: 80
+n_hidden: 256

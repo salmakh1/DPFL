@@ -1,0 +1,12 @@
+_target_: src.data.imageNet.ImageNetDataModule
+num_classes: 10
+num_workers: 1
+normalize: True
+seed: 32
+batch_size: 16
+shuffle: True
+num_clients: ${num_clients}
+val_split: 0.1
+pub_size: 0.1
+transform: False
+

@@ -1,0 +1,4 @@
+_target_: torchvision.models.shufflenet_v2_x2_0
+pretrained: False
+progress: True
+#num_classes: 10 # todo: add speclization so number of classes is based on selected dataset

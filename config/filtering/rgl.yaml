@@ -1,0 +1,2 @@
+_target_ : selection.bandits.optimized_rgl
+p_bandit: 1

@@ -1,0 +1,10 @@
+_target_: src.data.shakespeare_leaf.Shakespeare
+seed: 42
+num_classes: ${model.num_classes}
+batch_size: 10
+num_workers: 1
+shuffle: True
+num_clients: 138
+m: 20
+available_clients: 138
+local_steps: 2

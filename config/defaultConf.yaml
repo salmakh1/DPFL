@@ -1,0 +1,221 @@
+defaults:
+
+
+###
+  - model: cnnCifar #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+  - datamodule: cifar10 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+  - client: client_train_celoss
+  - logger: wandb
+  - split: dirichlet
+  - criterion: entropyLoss
+  - train_schema: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+  - filtering: rgl
+  - selection: random
+  - optim: sgd_cifar10 #sgd_cifar10 #sgd_femnist
+  - _self_
+task: "notNLP"
+
+#  - model: cnnCifar #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: cifar10 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: split_three_clients
+#  - criterion: entropyLoss
+#  - train_schema: crafted_example #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_cifar10 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+#
+#  - model: cnnCinic #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: cinic10 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - train_schema: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_cinic10 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+#  - model: sent140 #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: sent140 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: complex_dist
+#  - criterion: entropyLoss
+#  - train_schema: train_reweighted_rgl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_sent140 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "NLP_sent"
+
+#
+#  - model: cnnfemnist #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: femnist_leaf #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - train_schema: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_femnist #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+
+#  - model: lstm_shakespeare #sgd_shakespeare.yamlcnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: shakesp #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - train_schema: train_rgl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_shakesp #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "NLP"
+
+
+##### for inference
+#  - model: cnnCifar #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: cifar10 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: complex_dist
+#  - criterion: entropyLoss
+#  - inference: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_cifar10 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+#
+#  - model: cnnfemnist #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: femnist_leaf #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - inference: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_femnist #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+
+#  - model: cnnCinic #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: cinic10 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: complex_dist
+#  - criterion: entropyLoss
+#  - inference: train_pacfl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_cinic10 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "notNLP"
+
+
+#  - model: lstm_shakespeare #sgd_shakespeare.yamlcnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: shakesp #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - inference: train_rgl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_shakesp #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "NLP"
+#  - model: sent140 #cnnCifar #cnnfemnist #cnnfemnist #resnet #shufflenet #resnet #LinearModel
+#  - datamodule: sent140 #cifar10 #femnist_leaf #cifar10 #femnist_leaf #cifar10 #openImage #femnist
+#  - client: client_train_celoss
+#  - logger: wandb
+#  - split: dirichlet
+#  - criterion: entropyLoss
+#  - inference: train_reweighted_rgl #train_femnist_power_of_choice #train_femnist_power_of_choice #train_femnist #train_openImg #train_openImg #train
+#  - filtering: rgl
+#  - selection: random
+#  - optim: sgd_sent140 #sgd_cifar10 #sgd_femnist
+#  - _self_
+#task: "NLP_sent"
+#num_clients: ${inference.num_clients}
+#m: ${inference.m}
+#available_clients: ${inference.available_clients}
+####
+num_clients: ${train_schema.num_clients}
+m: ${train_schema.m}
+available_clients: ${train_schema.available_clients}
+
+output_dir: ??
+
+
+inference_: False
+random_sel: False
+rounds: 100
+device: True
+use_wandb: True
+bandit: True
+adversarial: False
+global_: False
+periodicity_of_bandit: 2
+real_bandit: False
+periodicity_of_real_bandit: 400
+FedAvg: False
+randomized: True
+gpus: ???
+tau: 10
+sampling: False # random sampling, partial participation
+ru: 0
+h: 1 # simulates how frequent the envirnment of available clients changes
+rgl_base: False # to similate if rgl search and averaging will be according to the base
+average_base: False # to simulate if global averaging will be according to the base
+malicious_clients: False # to similate if we are in a malicious envirnment
+corrupted_ids: 0.4 # to simulate the percentage of malicious devices
+selected_attack:
+    label_flip: False
+    gradient_boost: False
+    random_update: False
+    same_model: False
+    sign_flip: False
+    shuffle_model: False
+elimination: False
+remove_outliers: False #remove outliers from rgl regardless if we are in a malicious environment or not
+robust_averaging: False
+averaging_method:
+    knorm: False
+    krum: False
+    multi_krum: False
+beta: 2
+quantization: False
+collude: False
+cardinality: 10
+repetition: True
+weighted_avg: True
+p: [1]
+rgl: True
+greedy_set: True
+
+hydra:
+    run:
+        dir: ${output_dir}/train_exp/opt-${hydra.runtime.choices.optim}_model-${hydra.runtime.choices.model}_dm-${hydra.runtime.choices.datamodule}/${now:%Y-%m-%d_%H-%M}
+
+
+
+
+##
+#
+####
+#

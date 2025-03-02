@@ -1,0 +1,2 @@
+_target_: src.model.cifar_model.CNNCifar
+num_classes: ${datamodule.num_classes} #10 #defined later

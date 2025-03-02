@@ -1,0 +1,6 @@
+_target_ :  src.data.data_utils.split_nniid
+#dataset: ???
+num_clients : ${datamodule.num_clients}
+missing: 0
+a: 1.1
+data_points: 20

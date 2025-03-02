@@ -1,0 +1,4 @@
+_target_ :  src.utils.train_utils.random_selection
+#clients: ???
+#num_selected_clients: ???
+seed: ${datamodule.seed}

@@ -1,0 +1,7 @@
+_target_ :  src.data.data_utils.split_three_clients
+#dataset: ???
+num_clients : ${num_clients}
+seed: ${datamodule.seed}
+min_dataset_size: 20 #20
+alpha: 0.3
+missing_classes: 0.3

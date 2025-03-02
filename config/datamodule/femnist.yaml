@@ -1,0 +1,5 @@
+_target_: src.data.femnist.Femnist
+data_dir: /mnt/ssd/iFedScale/datasets/femnist/ #/mnt/ssd/iFedScale/datasets/femnist #/run/user/181523/data/openImg/
+seed: 42
+num_classes: 62
+batch_size: 20

@@ -1,0 +1,3 @@
+_target_: src.model.school_model.LinearModel
+#num_classes: 1 #10 #defined later
+#input_size: 29 #101 #

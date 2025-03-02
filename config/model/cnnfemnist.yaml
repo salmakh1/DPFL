@@ -1,0 +1,3 @@
+_target_: src.model.femnist_model.CNNFemnist
+
+num_classes: 62 #defined later

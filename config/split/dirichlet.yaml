@@ -1,0 +1,6 @@
+_target_ :  src.data.data_utils.dirichlet_split
+#dataset: ???
+num_clients : ${num_clients}
+seed: ${datamodule.seed}
+min_dataset_size: 20 #20
+alpha: 0.1

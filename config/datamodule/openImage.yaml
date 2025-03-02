@@ -1,0 +1,5 @@
+_target_: src.data.open_image.OpenImage
+data_dir: /mnt/ssd/iFedScale/datasets/openImg #/run/user/181523/data/openImg/
+seed: 32
+num_classes: 100
+batch_size: 32

@@ -1,0 +1,5 @@
+_target_ :  src.data.data_utils.sanity_check
+num_clients : ${num_clients}
+seed: ${datamodule.seed}
+missing_classes: 2
+num_classes: 10

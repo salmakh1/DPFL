@@ -1,0 +1,3 @@
+_target_: src.model.mnst_model.CNNMnist
+num_channels: 1
+num_classes: 10

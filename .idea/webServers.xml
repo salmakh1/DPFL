@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e3768c8a-c524-417d-90e3-7cb7365a22c0" name="mcnode (project level)">
+        <fileTransfer rootFolder="/home/kharras" accessType="SFTP" host="172.18.0.10" port="22" sshConfigId="e7790d16-89e5-4a97-a2ad-bae2ba70578a" sshConfig="mcnode">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d0012d3f-e50e-474d-b1fa-9fec11674fbd" name="ibex">
+        <fileTransfer rootFolder="/home/kharras" accessType="SFTP" host="glogin.ibex.kaust.edu.sa" port="22" sshConfigId="7fab5506-2f26-4ed2-9abf-b573492173e8" sshConfig="kharras@glogin.ibex.kaust.edu.sa:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0cbc2a11-89e6-42f3-a0d2-231f284fd847" name="ibex_f">
+        <fileTransfer rootFolder="/home/fouratf" accessType="SFTP" host="glogin.ibex.kaust.edu.sa" port="22" sshConfigId="28f00699-f1ed-42e7-81f4-87d007318992" sshConfig="fouratf@glogin.ibex.kaust.edu.sa:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

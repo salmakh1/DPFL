@@ -1,0 +1,7 @@
+_target_: src.model.sent140_model.RNNSent
+num_classes: 2
+ntoken: 2
+ninp: 25
+nhid: 128
+nlayers: 1
+dropout: 0.5

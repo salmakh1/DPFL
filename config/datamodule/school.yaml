@@ -1,0 +1,12 @@
+_target_: src.silo_data.school_datamodule.SchoolDataModule
+num_classes: 23 #10
+num_workers: 1
+normalize: True
+seed: 32 #42 #32
+batch_size: 64
+shuffle: True
+num_clients: ${num_clients}
+val_split: 0.4
+pub_size: 0.1
+transform: False
+

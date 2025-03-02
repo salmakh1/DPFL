@@ -1,0 +1,4 @@
+_target_: torchvision.models.resnet50
+pretrained: False
+progress: True
+num_classes: 62 #1000 #62 #10 #62 #10 #62 #100 # todo: add speclization so number of classes is based on selected dataset

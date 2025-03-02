@@ -1,0 +1,6 @@
+_target_: wandb.init
+project: ?? #""
+dir: ??
+entity: ?? #""  # set to name of your wandb team
+#tags:
+#config: ???

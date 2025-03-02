@@ -1,0 +1,10 @@
+_target_: src.data.femnist_leaf.Femnist
+seed: 52
+num_classes: ${model.num_classes}
+batch_size: 10
+num_workers: 1
+shuffle: True
+num_clients: 100 #200
+m: 10
+available_clients: 100 #200
+local_steps: 2
