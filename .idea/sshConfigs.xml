@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="PASSWORD" host="glogin.ibex.kaust.edu.sa" id="28f00699-f1ed-42e7-81f4-87d007318992" port="22" nameFormat="DESCRIPTIVE" username="fouratf" useOpenSSHConfig="true" />
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="glogin.ibex.kaust.edu.sa" id="35c26525-02c7-4e91-83ce-5d594aa2c73e" port="22" nameFormat="DESCRIPTIVE" username="kharras" useOpenSSHConfig="true" />
-    </configs>
-  </component>
-</project>
