@@ -13,14 +13,12 @@ DPFL is a bi-level optimization framework designed to tackle data heterogeneity 
 Experiments demonstrate DPFL’s superior performance in handling non-IID data, improving personalization, and optimizing resource usage in real-world decentralized learning scenarios.
 
 
-| ![](CIFAR10_variance_dirichlet_.png) | ![](CIFAR10_variance_complex_dist_.png) |
-
 <p>
     <img src="CIFAR10_variance_dirichlet_.png" width="45%" />
     <img src="CIFAR10_variance_complex_dist_.png" width="45%" />
 </p>
 
-<img src="CIFAR10_variance_dirichlet_.png" width="500" height="300" />
+<img src="CIFAR10_variance_complex_dist_.png" width="500" height="300" />
 
 
 ## 2. Dependencies
