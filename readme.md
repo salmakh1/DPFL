@@ -18,7 +18,7 @@ Experiments demonstrate DPFL’s superior performance in handling non-IID data, 
     <img src="CIFAR10_variance_complex_dist_.png" width="45%" />
 </p>
 
-
+The figures show that our method (DPFL) is situated in the right-bottom corner across all variants of budget constraints. This positioning signifies that, compared to other methods, our approach achieves superior average test accuracy and lower variance between local models. 
 
 ## 2. Dependencies
 The code requires Python >= 3.6 and PyTorch >= 1.2.0. To install the other dependencies: 
