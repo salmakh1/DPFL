@@ -18,7 +18,6 @@ Experiments demonstrate DPFL’s superior performance in handling non-IID data, 
     <img src="CIFAR10_variance_complex_dist_.png" width="45%" />
 </p>
 
-<img src="CIFAR10_variance_complex_dist_.png" width="500" height="300" />
 
 
 ## 2. Dependencies
